@@ -49,7 +49,7 @@ if (strlen($img_url[1][0]) > 1) {
 ";
   } else {
    file_put_contents($localpath, file_get_contents($imgs, false, $context));
-   echo "downloading...
+   echo "Downloading...
 ";
   }
 } else {
